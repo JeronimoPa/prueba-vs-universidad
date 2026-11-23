@@ -9,6 +9,7 @@ std::string perseguido(bool x){
 }
 
 int main(){
-	std::cout<<"¿La mano invisible me persigue?"<<perseguido(false);
+	std::cout<<"¿La mano invisible me persigue?"<<perseguido(false)<<std::endl;
+	std::cout<<"Fuck Society";
 	return 0;
 }
