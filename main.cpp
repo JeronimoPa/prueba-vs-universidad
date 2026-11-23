@@ -1,7 +1,14 @@
 
 
 #include <iostream>
+#include <string>
+
+std::string perseguido(bool x){
+	if(x==true){return "Si";}
+	else{return "No";}
+}
+
 int main(){
-	std::cout<<"La mano invisible me persigue";
+	std::cout<<"¿La mano invisible me persigue?"<<perseguido(false);
 	return 0;
 }
